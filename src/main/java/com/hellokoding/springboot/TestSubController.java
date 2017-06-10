@@ -13,14 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping("/test")
 public class TestSubController {
-	@RequestMapping("/yokogaki")
-    public String controllerA(Model model, @RequestParam(value="name", required=false, defaultValue="横書き") String name) {
-        model.addAttribute("name", name);
-        return "jsp/index";
-    }
-	@RequestMapping("/tategaki")
-    public String controllerB(HttpServletResponse res,HttpServletRequest req,Model model, @RequestParam(value="name", required=false, defaultValue="縦書き") String name) throws UnsupportedEncodingException {
-        model.addAttribute("name", name);
-        return "jsp/index_tategaki";
+	@RequestMapping("/article")
+    public String controllerA(Model model) {
+        return "jsp/article_tategaki_test";
     }
 }

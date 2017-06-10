@@ -1,0 +1,33 @@
+@font-face {
+    font-family: hannari;
+    src: url(font/Hannari.otf);
+}
+body {
+	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", hannari, "微软雅黑", STXihei, "华文细黑", sans-serif;
+	font-size: 18px;
+    line-height: 1.618	;
+    color: #333333;
+    background-color: #fff;
+    overflow-y: auto;
+    /*background-image: url("../img/pattern.png");*/
+}
+
+h1, h2, h3, h4, h5, h6{
+	line-height: 2;
+	color: #111111;
+	font-family: hannari;
+}
+
+.chinese-font{
+	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+}
+
+.japanese-font{
+	font-family: "秀英明朝 M JIS2004", "DNPShueiMinPr6N-M", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.tategaki {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
