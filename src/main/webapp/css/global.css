@@ -3,13 +3,14 @@
     src: url(font/Hannari.otf);
 }
 body {
-	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", hannari, "微软雅黑", STXihei, "华文细黑", sans-serif;
+	font-family: "秀英明朝 M JIS2004", "DNPShueiMinPr6N-M", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	font-size: 18px;
     line-height: 1.618	;
     color: #333333;
     background-color: #fff;
-    overflow-y: auto;
+    overflow-y: hidden;
     /*background-image: url("../img/pattern.png");*/
+    margin:0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -17,17 +18,39 @@ h1, h2, h3, h4, h5, h6{
 	color: #111111;
 	font-family: hannari;
 }
+p{
+	line-height: 2.1em;
+	color: #111111;
+	letter-spacing: 0.3em;
+	font-weight:bold;
+	margin-right:2em;
+}
 
 .chinese-font{
 	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
-}
-
-.japanese-font{
-	font-family: "秀英明朝 M JIS2004", "DNPShueiMinPr6N-M", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .tategaki {
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
+}
+
+.black-board{
+	border: 2.5px solid #222222;
+}
+
+.circle-icon{
+	border-radius: 50%;
+}
+
+.separator-with-image{
+	height:100vh;
+	margin-top:-5em;
+	width:14em;
+	overflow:hidden;
+}
+.separator-with-image img{
+	margin:0;
+	padding:0;
 }

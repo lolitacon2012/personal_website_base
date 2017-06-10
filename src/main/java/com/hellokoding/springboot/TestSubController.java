@@ -17,4 +17,4 @@ public class TestSubController {
     public String controllerA(Model model) {
         return "jsp/article_tategaki_test";
     }
-}
+}	
