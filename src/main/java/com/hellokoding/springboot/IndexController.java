@@ -11,6 +11,6 @@ public class IndexController {
 	@RequestMapping("/")
     public String index(Model model, @RequestParam(value="name", required=false, defaultValue="World") String name) {
         model.addAttribute("name", name);//add jsp field variable
-        return "index";//page name to return
+        return "jsp/index";//page name to return
     }
 }
