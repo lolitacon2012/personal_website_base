@@ -29,7 +29,24 @@
 			</div>
 		</div>
 		<div class="separator-with-image">
-
+			<div class="separator-image-container" id="separator_a">
+			</div>
+		</div>
+		<div class="separator-with-image">
+			<div class="separator-image-container" id="separator_b">
+			</div>
+		</div>
+		<div class="separator-with-image">
+			<div class="separator-image-container" id="separator_c">
+			</div>
+		</div>
+		<div class="separator-with-image">
+			<div class="separator-image-container" id="separator_d">
+			</div>
+		</div>
+		<div class="separator-with-image">
+			<div class="separator-image-container" id="separator_e">
+			</div>
 		</div>
 	</div>
 	

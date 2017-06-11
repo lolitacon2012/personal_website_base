@@ -4,10 +4,10 @@ $(function() {
    $(function() {
        $('#sakura_container').sakura('start', {
            className: 'sakura',
-           fallSpeed: 3,
+           fallSpeed: 2.6,
            maxSize: 30,
            minSize: 9,
-           newOn: 1500
+           newOn: 800
        });
    });
 });

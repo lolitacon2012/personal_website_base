@@ -35,3 +35,91 @@ h1 {
 #self_intro{
 	margin-right: 6em;
 }
+#separator_a{
+	background: url('../img/pattern1.png');
+	background-position: 0px 0px;
+	animation: animatedBackground_1 10s linear infinite;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+	transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+#separator_a:hover{
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+}
+@keyframes animatedBackground_1 {
+	from { background-position: 0 0; }
+	to { background-position: 390px 0; }
+}
+#separator_b{
+	background: url('../img/pattern2.png');
+	background-position: 0px 0px;
+	animation: animatedBackground_2 10s linear infinite;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+	transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+#separator_b:hover{
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+}
+@keyframes animatedBackground_2 {
+	from { background-position: 0 0; }
+	to { background-position: 0 400px; }
+}
+#separator_c{
+	background: url('../img/pattern3.png');
+	background-position: 0px 0px;
+	animation: animatedBackground_3 2s ease-in-out infinite;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+	transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    background-repeat:repeat-x;
+    background-color: rgb(229,229,229);
+}
+#separator_c:hover{
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+}
+@keyframes animatedBackground_3 {
+	from { background-position: 0 0; }
+	to { background-position: -100px 0; }
+}
+#separator_d{
+	background: url('../img/pattern4.png');
+	background-position: 0px 0px;
+	animation: animatedBackground_4 10s linear infinite;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;	
+		transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+#separator_d:hover{
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+}
+@keyframes animatedBackground_4 {
+	from { background-position: 0 0; }
+	to { background-position: 290px 210px; }
+}
+#separator_e{
+	background: url('../img/pattern5.png');
+	background-position: 0px 0px;
+	animation: animatedBackground_5 10s linear infinite;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;	
+	transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+#separator_e:hover{
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+}
+@keyframes animatedBackground_5 {
+	from { background-position: 0 0; }
+	to { background-position: 520px 0; }
+}
+

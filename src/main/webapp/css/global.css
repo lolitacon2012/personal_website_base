@@ -47,12 +47,16 @@ p{
 
 .separator-with-image{
 	height:100vh;
-	margin:-5em 2em 0 2em;
+	margin:-5em 0 0 0;
 	width:15em;
 	overflow:hidden;
 	z-index:-1000;
 }
-.separator-with-image img{
-	margin:0;
+.separator-image-container{
+	width:15em;
 	padding:0;
+	margin:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
 }
