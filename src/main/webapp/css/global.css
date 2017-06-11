@@ -11,6 +11,7 @@ body {
     overflow-y: hidden;
     /*background-image: url("../img/pattern.png");*/
     margin:0;
+    text-alignment:right;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -46,9 +47,10 @@ p{
 
 .separator-with-image{
 	height:100vh;
-	margin-top:-5em;
-	width:14em;
+	margin:-5em 2em 0 2em;
+	width:15em;
 	overflow:hidden;
+	z-index:-1000;
 }
 .separator-with-image img{
 	margin:0;
