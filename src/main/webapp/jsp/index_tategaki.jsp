@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div class="separator-with-image">
-			<img src="../img/rabbit_yellow.jpg"/>
+
 		</div>
 	</div>
 	
