@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping("/test")
 public class TestSubController {
+	@RequestMapping("/")
+    public String controllerDefault(Model model) {
+        return "jsp/test_page";
+    }
 	@RequestMapping("/article")
     public String controllerA(Model model) {
         return "jsp/article_tategaki_test";

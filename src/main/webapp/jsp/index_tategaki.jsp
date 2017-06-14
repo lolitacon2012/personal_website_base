@@ -12,6 +12,7 @@
 	<script type='text/javascript' src='../lib/jquery.mousewheel.min.js'></script>
 	<script type='text/javascript' src='../lib/jquery.easing.1.3.js'></script>
 	<script type='text/javascript' src='../lib/jquery-sakura.min.js'></script>
+	
     <title>Hello</title>
 </head>
 <body>
@@ -30,22 +31,42 @@
 		</div>
 		<div class="separator-with-image">
 			<div class="separator-image-container" id="separator_a">
+				<div class="separator-text">
+					<div class="separator-text-right"><h1>言語</h1></div>
+					<div class="separator-text-left"><ruby><h1><rb>言</rb></h1><rt>げん</rt></ruby><ruby><h1><rb>語</rb></h1><rt>ご</rt></ruby></div>
+				</div>
 			</div>
 		</div>
 		<div class="separator-with-image">
 			<div class="separator-image-container" id="separator_b">
+				<div class="separator-text">
+					<div class="separator-text-right"><h1>漢和古典</h1></div>
+					<div class="separator-text-left"><ruby><h1><rb>漢</rb></h1><rt>かん</rt></ruby><ruby><h1><rb>和</rb></h1><rt>わ</rt></ruby><ruby><h1><rb>古</rb></h1><rt>こ</rt></ruby><ruby><h1><rb>典</rb></h1><rt>てん</rt></ruby></div>
+				</div>
 			</div>
 		</div>
 		<div class="separator-with-image">
 			<div class="separator-image-container" id="separator_c">
+				<div class="separator-text">
+					<div class="separator-text-right"><h1>沖縄学</h1></div>
+					<div class="separator-text-left"><ruby><h1><rb>沖</rb></h1><rt>おき</rt></ruby><ruby><h1><rb>縄</rb></h1><rt>なわ</rt></ruby><ruby><h1><rb>学</rb></h1><rt>がく</rt></ruby></div>
+				</div>
 			</div>
 		</div>
 		<div class="separator-with-image">
 			<div class="separator-image-container" id="separator_d">
+				<div class="separator-text">
+					<div class="separator-text-right"><h1>神道</h1></div>
+					<div class="separator-text-left"><ruby><h1><rb>神</rb></h1><rt>しん</rt></ruby><ruby><h1><rb>道</rb></h1><rt>とう</rt></ruby></div>
+				</div>
 			</div>
 		</div>
 		<div class="separator-with-image">
 			<div class="separator-image-container" id="separator_e">
+				<div class="separator-text">
+					<div class="separator-text-right"><h1>コンピューター科学</h1></div>
+					<div class="separator-text-left"><ruby><h1><rb>コンピューター</rb></h1><rt></rt></ruby><ruby><h1><rb>科</rb></h1><rt>か</rt></ruby><ruby><h1><rb>学</rb></h1><rt>がく</rt></ruby></div>
+				</div>
 			</div>
 		</div>
 	</div>

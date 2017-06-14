@@ -2,8 +2,12 @@
     font-family: hannari;
     src: url(font/Hannari.otf);
 }
+@font-face {
+    font-family: hanSerifRegular;
+    src: url(font/SourceHanSerifJP-Regular.otf);
+}
 body {
-	font-family: "秀英明朝 M JIS2004", "DNPShueiMinPr6N-M", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-family: Arial, Verdana, Roboto, hanSerifRegular, "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	font-size: 18px;
     line-height: 1.618	;
     color: #333333;
@@ -19,12 +23,17 @@ h1, h2, h3, h4, h5, h6{
 	color: #111111;
 	font-family: hannari;
 }
+rt {
+    font-size:40%;
+    lione-height:20%;
+}
 p{
 	line-height: 2.1em;
 	color: #111111;
 	letter-spacing: 0.3em;
 	margin-right:2em;
 	font-size:1em;
+	font-family: hanSerifRegular;
 }
 
 .chinese-font{
@@ -53,10 +62,48 @@ p{
 	z-index:-1000;
 }
 .separator-image-container{
+	position: relative;
 	width:15em;
 	padding:0;
 	margin:0;
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
+    overflow:hidden;
+}
+.separator-text h1{
+	margin:0;
+	padding:0;
+	font-family:hanSerifRegular;
+	line-height:1;
+}	
+.separator-text{
+	width:200%;
+	height:100%;
+	-webkit-transform: translateX(33%);
+	transform: translateX(33%);
+	
+	transition: transform 350ms ease-out;
+}
+.separator-image-container:hover > .separator-text {
+	
+	-webkit-transform: none;
+	transform: none;
+	transition: transform 700ms ease-in-out;
+}
+.separator-text-left{
+	width:50%;
+}
+.separator-text-right{
+	width:50%;
+}
+.separator-text-right h1{
+	font-size:7em;
+}
+.separator-text-left h1{
+	font-size:10em;
+	line-height: 0.8;
+}
+.separator-text-left ruby > rt{
+	font-size:2.8em;
 }
